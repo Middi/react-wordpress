@@ -1,0 +1,17 @@
+.top-posts-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+.post-list {
+    margin: 5px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+}
+
+.post-list-title {
+    
+}

@@ -1,0 +1,32 @@
+.top-content-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 160px 160px 160px;
+    grid-auto-flow: column;
+}
+
+.item-0 {
+    grid-column: 1;
+    grid-row: 1 / 4;
+  }
+
+.post {
+    margin: 5px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    border: 1px solid grey;
+}
+
+
+.post-title {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 2rem;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
