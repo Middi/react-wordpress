@@ -52,7 +52,7 @@ getPosts = (page = 1) => {
   render() {
     const { posts, totalPages, page } = this.state;
     const pagination = Array.apply(null, { length: totalPages }).map((e, i) => (
-      <button onClick={e => this.page(e, (i+1))} key={i+1}>
+      <button className={(i+1) === page ? `page-active`: null} onClick={e => this.page(e, (i+1))} key={i+1}>
         {(i=== 0) ? 'First Page' : i+1}
       </button>
     ))

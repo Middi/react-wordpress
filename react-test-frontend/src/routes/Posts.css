@@ -12,6 +12,7 @@
     height: 200px;
 }
 
-.post-list-title {
-    
+.page-active {
+    background-color: rgba(16, 16, 157, 0.872);
+    color: white;
 }
